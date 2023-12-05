@@ -1,0 +1,80 @@
+image {
+    
+}
+body {
+    background-color: #EDF3F8;
+}
+
+article p {
+    font-size: 15px;
+    line-height: 28px;
+    color: #6C8294;
+    text-align: center;
+    font-family: 'Public Sans', sans-serif;
+}
+
+main h2 {
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #36536B;
+    font-family: 'DM Serif Display', serif;
+}
+
+main section h4 {
+    font-size: 24px;
+    line-height: 32px;
+    color: #36536B;
+    text-align: center;
+    font-family: 'DM Serif Display', serif;
+}
+
+p.klase1 {
+    color: #36536B;
+    font-size: 16px;
+    text-align: center;
+    font-style: normal;
+    line-height: 28px;
+
+}
+
+.klase2 {
+    color: #BA4270;
+    text-align: center;
+    font-family: DM Serif Display;
+    font-size: 56px;
+    font-style: normal;
+    line-height: 72px;
+}
+p.klase3 {
+    color: #36536B;
+    font-size: 16px;
+    text-align: center;
+    font-style: normal;
+    line-height: 28px;
+
+}
+.klase4 {
+    color: #BA4270;
+    text-align: center;
+    font-family: DM Serif Display;
+    font-size: 56px;
+    font-style: normal;
+    line-height: 72px;
+}
+p.klase5 {
+    color: #36536B;
+    font-size: 16px;
+    text-align: center;
+    font-style: normal;
+    line-height: 28px;
+
+}
+.klase6 {
+    color: #BA4270;
+    text-align: center;
+    font-family: DM Serif Display;
+    font-size: 56px;
+    font-style: normal;
+    line-height: 72px;
+}
