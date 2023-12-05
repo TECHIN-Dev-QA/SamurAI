@@ -1,14 +1,45 @@
-image {
-    
+
+label.logo{
+    font-size: 35px;
+    cursor: pointer;
+    /* width: 88.66px;
+    height: 28.74px;
+    top: 10.29px;
+    left: 46px; */
+    color: #36536b;
+    padding: 0 100px;
+    line-height: 80px;
+    background-image: url(../img/assets/shared/desktop/logo.svg);
+    background-repeat: no-repeat;
 }
+ nav ul{
+    float: right;
+    margin-right: 40px;
+}
+nav li{
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+} 
+nav a{
+    color: var(--link-water-white);
+    font-size: 15px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    padding: 7px 10px;
+    border-radius: 3px;
+    font-weight: 700;
+} 
+
 body {
     background-color: #EDF3F8;
 }
 
-article p {
+ article p {
     font-size: 15px;
     line-height: 28px;
-    color: #6C8294;
+    color: var(--link-water-white)
+    font-weight: 400;
     text-align: center;
     font-family: 'Public Sans', sans-serif;
 }
@@ -17,20 +48,20 @@ main h2 {
     font-size: 48px;
     line-height: 56px;
     text-align: center;
-    color: #36536B;
+   color: var(--link-water-white);
     font-family: 'DM Serif Display', serif;
 }
 
 main section h4 {
     font-size: 24px;
     line-height: 32px;
-    color: #36536B;
+    color: var(--link-water-white);
     text-align: center;
     font-family: 'DM Serif Display', serif;
 }
 
 p.klase1 {
-    color: #36536B;
+    color: var(--link-water-white);
     font-size: 16px;
     text-align: center;
     font-style: normal;
@@ -47,7 +78,7 @@ p.klase1 {
     line-height: 72px;
 }
 p.klase3 {
-    color: #36536B;
+    color: var(--link-water-white);
     font-size: 16px;
     text-align: center;
     font-style: normal;
@@ -63,7 +94,7 @@ p.klase3 {
     line-height: 72px;
 }
 p.klase5 {
-    color: #36536B;
+    color: var(--link-water-white);
     font-size: 16px;
     text-align: center;
     font-style: normal;
@@ -78,3 +109,7 @@ p.klase5 {
     font-style: normal;
     line-height: 72px;
 }
+
+p* { color: var(--link-water-white);
+    padding: 0px 30px;
+  }
