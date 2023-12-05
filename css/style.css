@@ -46,15 +46,7 @@ nav a{
     border-radius: 3px;
     font-weight: 700;
 } 
-/* nav #icon{
-    color: #36536b;
-    font-size: 30px;
-    line-height: 80px;
-    float: right;
-    margin-right: 40px;
-    cursor: pointer;
-    display: none;
-} */
+
 .secondary-btn{
     color: #fbfcfe;
     background-color: #BA4270;
@@ -81,9 +73,6 @@ nav a{
 .content{
     font-family: 'DM Serif Display';
     color:#36536B;
-    /* position: fixed; */
-    /* margin-top: 14%;
-    max-width: 546px; */
     width: 50%;
     text-align: center;
     padding: 14% 3% 0% 3%;
@@ -103,7 +92,6 @@ nav a{
     align-items: center;
     background: #fbfcfe;
     border-radius: 35px;
-    padding: 10px;
     margin-top: 30px;
 }
 .content form input{
@@ -285,7 +273,7 @@ nav a{
     header{
         background-image: url(../img/assets/shared/desktop/bg-pattern-circle.svg);
         background-repeat: no-repeat;
-        background-size: 150%;
+        background-size: 100%;
         background-position: center -600%; 
     }
     /* UPDATE */
@@ -400,22 +388,6 @@ nav a{
     }
     .nav-menu.active li:nth-child(1){
         margin-top: 40%;
-    }
-    
-
-
-
+    }  
    }
 
-
-/* section{
-    background: url(../img/assets/shared/desktop/bg-pattern-circle.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top;
-    height: calc(100vh - 80px);
-    height:780px;
-    width:780px;
-    background-position-x:top -172px;
-    background-position-y:left 800px; 
-} */
