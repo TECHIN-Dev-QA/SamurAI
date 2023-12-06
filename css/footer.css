@@ -1,0 +1,107 @@
+/* footer sudaro du div  cia visi nustatymai  */
+/* footer nustatimai  */
+footer {
+    border: 2px solid red;
+    margin: 1px;
+    padding: 1px;
+    width: auto;
+    height: 325px;
+}
+
+/* footer pirmas blokas nustatymai  */
+.footer-top {
+    border: 2px solid green;
+    margin: 1px;
+    padding: 2px;
+    height: 100px;
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-top h3 {
+    font-size: 25px;
+}
+
+/* formos nustatymas formos tekstas i kuria pozicija    */
+form {
+    text-align: left;
+
+}
+
+/* btn nustatymas  */
+.secondary-btn {
+    color: #fbfcfe;
+    background-color: #BA4270;
+    height: 48px;
+    width: 272px;
+    font-size: 15px;
+    border-radius: 35px;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+/* email  lauko nustatymas */
+#email {
+    background-color: #fbfcfe;
+    border-radius: 35px;
+    border: 1px solid transparent;
+    font-size: 15px;
+    height: 48px;
+    width: 272px;
+}
+
+
+/* footer antras blokas  */
+.footer-nav {
+    flex-wrap: wrap;
+    width: auto;
+    display: flex;
+    padding: 15px 25px;
+    height: 99px;
+    background-color: #1B262F;
+    justify-content: space-between
+
+}
+
+/* logotipas pries footer nav */
+label.logo {
+    
+    left:200px;
+    font-size: 35px;
+    cursor: pointer;
+    color: #36536b;
+    padding: 0 100px;
+    background-image: url(../img/assets/shared/desktop/logo.svg);
+    background-repeat: no-repeat;
+}
+
+.footer-nav ul {
+    display: flex;
+    list-style: none;
+    padding: 10px;
+
+}
+
+.footer-nav li {
+    margin-right: 50px;
+    font-size: 15px;
+    text-align: center;
+    display: flex;
+
+}
+
+.footer-nav .nav-link {
+
+    text-decoration: none;
+    color: #fbfcfe;
+
+}
+.footer-box-social{
+  
+  display: inline-block;
+  padding-left: 50px;
+  padding: 0px 15px;
+}
+

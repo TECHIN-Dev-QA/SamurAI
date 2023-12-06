@@ -1,0 +1,119 @@
+form {
+    height: 500px;
+    width: 700px;
+    border: 2px solid red;
+}
+
+.form_group {
+    
+    margin-bottom: 15px;
+    border: #2fb62f;
+}
+
+.js-input,
+.js-input-email{
+    width: 445px;
+    height: 42px; 
+    left: 165px;
+    padding: 0 10px; 
+    border: none;
+    border-bottom: 1px solid #36536B;
+    background: transparent;
+    outline: none;
+    font-size: 15px;
+    position: relative;
+}
+
+.form_textarea {
+    /* left: 165px;
+    width: 500px;
+    height: 80px; 
+     */
+    width: 445px;
+    height: 89px;
+    flex-shrink: 0;
+    left: 165px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #36536B;
+    font-size: 16px;
+    resize: none;
+    position: relative;
+}
+
+.checkbox{
+    width: 25px;
+    height: 15px;
+    left: 160px;    
+    border-bottom: 1px solid #36536B;
+    position: relative;
+  }
+
+.checkbox_label {
+    user-select: none;
+}
+
+.btn{
+    color: #fbfcfe;
+    background-color: #BA4270;
+    height: 48px;
+    width: 172px;
+    font-size: 15px;
+    border-radius: 35px;
+    border: 1px solid transparent;
+    cursor: pointer; 
+}
+
+/* error stiliai */
+.input.error {
+    border-bottom: red;
+}
+
+.input::placeholder {
+    color: #36536B;
+    font-size: 15px;
+}
+
+
+.checkbox_label {
+    user-select: none;
+}
+
+.checkbox__input.error + .checkbox__label {
+    color: red;
+}
+
+
+
+/* bendri stiliai visems ekranams  */
+
+/* stilius ekranuj iki  600px */
+@media (max-width: 600px) {
+    form {
+        width: 90%; /* Пример: уменьшить ширину формы для маленьких экранов */
+    }
+
+    .js-input,
+    .js-input-email,
+    .form__textarea,
+    .checkbox,
+    .btn {
+        width: 100%; /* Пример: установить ширину элементов на 100% для маленьких экранов */
+        margin-bottom: 10px; /* Пример: уменьшить отступ между элементами */
+    }
+}
+
+/* stilius ekranuj nuo  601px iki 1024px */
+@media (min-width: 601px) and (max-width: 1024px) {
+    /* Ваши стили для этого диапазона ширин */
+}
+
+/* stilius ekranuj nuo  1024px */
+@media (min-width: 1025px) {
+    /* Ваши стили для более широких экранов */
+}
