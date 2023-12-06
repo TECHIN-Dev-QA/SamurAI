@@ -1,47 +1,47 @@
-let form = document.querySelector('.js-form'),
+let form = document.querySelector('.form_group'),
     formInputs = document.querySelectorAll('.js-input'),
-    inputEmail = document.querySelector('.js-input-email'),
-    inputCheckbox = document.querySelector('.js-input-checkbox');
+    inputCheckbox = document.querySelector('#privacy_check');
 
-
-function valdateEmail(email){
-    let re = /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
-    return re.test(String(email).toLocaleLowerCase());
+function validateEmail(email) {
+    let re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    return re.test(String(email).toLowerCase());
 }
 
 form.onsubmit = function () {
-    let emailVal = inputEmail.value,
-        emptyInputs = Array.from(formInputs).filter(input => input.value === '');
+    let emptyInputs = Array.from(formInputs).filter(input => input.value === '');
 
-        
-       
-    formInputs.forEach (function (input) {
+    formInputs.forEach(function (input) {
         if (input.value === '') {
             input.classList.add('error');
-           
-        } else{
+            console.log('not valid')
+        } else {
             input.classList.remove('error');
         }
     });
-    if (emptyInputs.length !==0){
-        console.log('input not filled');
+
+    if (emptyInputs.length !== 0) {
+        console.log('Some inputs are not filled');
+        event.preventDefault();
         return false;
     }
 
-    if(!valdateEmail(emailVal)){
+    let emailVal = form.querySelector('.js-input[type="email"]').value;
+
+    if (!validateEmail(emailVal)) {
         console.log('email not valid');
-        inputEmail.classList.add('error');
+        form.querySelector('.js-input[type="email"]').classList.add('error');
         return false;
-    }else {
-        inputEmail.classList.remove('error');
+    } else {
+        form.querySelector('.js-input[type="email"]').classList.remove('error');
     }
 
-    if(!inputCheckbox.checked){
+
+
+    if (!inputCheckbox.checked) {
         console.log('checkbox not checked');
         inputCheckbox.classList.add('error');
         return false;
-    }else {
+    } else {
         inputCheckbox.classList.remove('error');
     }
- 
 }
