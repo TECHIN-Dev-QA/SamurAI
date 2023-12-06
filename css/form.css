@@ -29,10 +29,10 @@ form {
     width: 500px;
     height: 80px; 
      */
-    width: 445px;
-    height: 89px;
-    flex-shrink: 0;
-    left: 165px;
+     width: 445px;
+     height: 89px;
+     flex-shrink: 0;
+     left: 165px;
     padding: 12px 20px;
     box-sizing: border-box;
     border: 2px solid #ccc;
@@ -83,8 +83,7 @@ form {
 .checkbox_label {
     user-select: none;
 }
-
-.checkbox__input.error + .checkbox__label {
+.checkbox_input.error + .checkbox_label {
     color: red;
 }
 
@@ -100,7 +99,7 @@ form {
 
     .js-input,
     .js-input-email,
-    .form__textarea,
+    .form_textarea,
     .checkbox,
     .btn {
         width: 100%; /* Пример: установить ширину элементов на 100% для маленьких экранов */
