@@ -1,0 +1,382 @@
+main {
+  margin: auto 0px;
+}
+
+
+.partners {
+  padding: 80px 0px;
+  background-image: url(../img/bg-pattern-circle.svg);
+  background-repeat: no-repeat;
+  background-color: var(--mirage-blue);
+  background-size: 100%;
+  background-position: right -200px;
+
+}
+
+.logo-container {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  row-gap: 20px;
+  justify-content: center;
+  align-content: center;
+  padding: 0px 24px;
+
+}
+
+.box {
+  height: 50px;
+  min-width: 140px;
+  flex-grow: 1;
+  display: block;
+}
+
+.partners-text {
+  color: var(--link-water-white);
+  text-align: center;
+  position: relative;
+  padding: 80px 24px;
+
+}
+
+.partner-text-p {
+  padding: 30px 0px 0px 0px;
+  opacity: 70%;
+}
+
+.partner-btn {
+  text-align: center;
+}
+
+/* MEDIA FOR PARTNERS */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .partners {
+    background-position: right -500px;
+  }
+
+  .logo-container {
+    padding: 0px 116px;
+  }
+
+  .partners-text {
+    padding: 64px 155px 64px 155px;
+
+  }
+
+  .logo-container {
+    margin: 0px;
+    justify-content: center
+  }
+
+  .flex1 {
+    display: flex;
+  }
+
+  .flex2 {
+    display: flex;
+  }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+  .partners {
+    background-position: right -500px;
+  }
+
+  .partners-text {
+    padding: 64px 155px;
+  }
+
+  .logo-container {
+    margin: 0px;
+    justify-content: center
+  }
+
+  .flex1 {
+    display: flex;
+  }
+
+  .flex2 {
+    display: flex;
+  }
+
+  .h3-partner {
+    font-size: 48px;
+    font-style: normal;
+    line-height: 56px;
+    /* 116.667% */
+    letter-spacing: -0.369px;
+  }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+  .partners {
+    display: flex;
+    flex-direction: row-reverse;
+    background-position: -500px -900px;
+    padding: 10%;
+  }
+
+  .logo-container {
+    justify-content: center;
+    row-gap: 30px;
+    padding: 0px 0% 0% 10%;
+  }
+
+  .text-container {
+    justify-content: center;
+    padding: 0px;
+  }
+
+  .partners-text {
+
+    text-align: justify;
+    padding: 0px;
+  }
+
+  .partner-btn {
+    text-align: justify;
+    padding: 32px 0px 0px 0px;
+  }
+
+  .h3-partner {
+    font-size: 48px;
+    font-style: normal;
+    line-height: 56px;
+    /* 116.667% */
+    letter-spacing: -0.369px;
+  }
+
+}
+
+
+/*!!!!!!!!!  */
+/* EASY UI PART */
+.easy-to-implement {
+  text-align: center;
+  color: var(--san-juan-blue);
+  background-color: var(--background-color);
+}
+
+.easy-to-implement-h3 {
+  padding: 0px 0px 15px 0px;
+
+}
+
+.easy-to-implement-text {
+  color: var(--light-san-juan-blue);
+  text-align: center;
+  padding: 0px 24px;
+}
+
+.demo-img {
+  padding: 40px 0px 0px 15px;
+}
+
+.ui-img {
+  padding-left: 15px;
+}
+
+/*MEDIA 4 EASY UI  */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .easy-to-implement-h3 {
+    font-size: 48px;
+    font-style: normal;
+    line-height: 56px;
+    letter-spacing: -0.369px;
+  }
+
+  .easy-to-implement-h3 {
+    padding: 0px 0px 15px 0px;
+
+  }
+
+  .easy-to-implement-text {
+    padding: 0px 98px;
+  }
+
+  .demo-img {
+    padding: 100px 0px 0px 47px;
+  }
+
+  .ui-img {
+    padding: 100px 0px 60px 15px;
+  }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .easy-to-implement-h3 {
+    font-size: 48px;
+    font-style: normal;
+    line-height: 56px;
+    letter-spacing: -0.369px;
+  }
+
+  .easy-to-implement-h3 {
+    padding: 0px 0px 15px 0px;
+    font-size: 48px;
+    font-style: normal;
+    line-height: 56px;
+    /* 116.667% */
+    letter-spacing: -0.369px;
+
+  }
+
+  .easy-to-implement-text {
+    padding: 0px 98px;
+  }
+
+  .demo-img {
+    padding: 100px 0px 0px 47px;
+  }
+
+  .ui-img {
+    padding: 100px 0px 0px 15px;
+  }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+  .ui-container {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    padding-right: 10%;
+  }
+
+  .easy-to-implement-box {
+    max-width: 50%;
+    max-height: 100%;
+  }
+
+  .easy-to-implement-h3 {
+    padding: 170px 0px 30px 0px;
+    font-size: 48px;
+    font-style: normal;
+    line-height: 56px;
+    /* 116.667% */
+    letter-spacing: -0.369px;
+    text-align: left;
+
+  }
+
+  .easy-to-implement-text {
+    color: var(--light-san-juan-blue);
+    text-align: left;
+    padding: 0px;
+
+  }
+
+  .simple-ui-container {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row-reverse;
+    justify-content: center;
+    padding-left: 10%;
+  }
+
+  .simple-ui-box {
+    max-width: 50%;
+    max-height: 100%;
+
+  }
+
+  .easy-to-implement {
+    background-image: url(../img/bg-pattern-circle.svg);
+    background-repeat: no-repeat;
+    background-color: var(--background-color);
+    background-size: 100%;
+    background-position: 1200px;
+  }
+
+  .ui-img {
+    padding: 20px 0px 20px 15px;
+  }
+}
+
+/* !!!!!!!! */
+/* CARDS PART */
+.cards {
+  padding: 50px 0px;
+  background-color: var(--background-color);
+  color: var(--light-san-juan-blue);
+  text-align: center;
+}
+
+.h3-small {
+  padding: 20px 0px 0px 0px;
+}
+
+.cards-txt {
+  padding: 30px 24px;
+}
+
+/* MEDIA 4 CARDS PART */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .cards {
+    background-color: var(--background-color);
+    color: var(--light-san-juan-blue);
+    text-align: center;
+    display: flex;
+    box-sizing: border-box;
+    padding: 70px 0px;
+  }
+
+  .cards-box {
+    max-width: 33.33%;
+    max-height: 100%;
+    padding: 0px;
+  }
+
+  .h3-small {
+    padding: 20px 0px;
+  }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .cards {
+    background-color: var(--background-color);
+    color: var(--light-san-juan-blue);
+    text-align: center;
+    display: flex;
+    box-sizing: border-box;
+    padding: 30px 0px;
+  }
+
+  .cards-box {
+    max-width: 33.33%;
+    max-height: 100%;
+    padding: 0px;
+  }
+
+  .h3-small {
+    padding: 20px 0px;
+  }
+}
