@@ -25,14 +25,10 @@ form {
 }
 
 .form_textarea {
-    /* left: 165px;
-    width: 500px;
-    height: 80px; 
-     */
      width: 445px;
-     height: 89px;
-     flex-shrink: 0;
-     left: 165px;
+    height: 89px;
+    flex-shrink: 0;
+    left: 165px;
     padding: 12px 20px;
     box-sizing: border-box;
     border: 2px solid #ccc;
@@ -94,7 +90,7 @@ form {
 /* stilius ekranuj iki  600px */
 @media (max-width: 600px) {
     form {
-        width: 90%; /* Пример: уменьшить ширину формы для маленьких экранов */
+        width: 45%; /* Пример: уменьшить ширину формы для маленьких экранов */
     }
 
     .js-input,
@@ -102,7 +98,7 @@ form {
     .form_textarea,
     .checkbox,
     .btn {
-        width: 100%; /* Пример: установить ширину элементов на 100% для маленьких экранов */
+        width: 50%; /* Пример: установить ширину элементов на 100% для маленьких экранов */
         margin-bottom: 10px; /* Пример: уменьшить отступ между элементами */
     }
 }

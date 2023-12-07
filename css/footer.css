@@ -1,4 +1,5 @@
-/* footer sudaro du div  cia visi nustatymai  */
+/* footer antras blokas  */
+* footer sudaro du div  cia visi nustatymai  */
 /* footer nustatimai  */
 footer {
     border: 2px solid red;
@@ -53,7 +54,6 @@ form {
 }
 
 
-/* footer antras blokas  */
 .footer-nav {
     flex-wrap: wrap;
     width: auto;
@@ -61,47 +61,44 @@ form {
     padding: 15px 25px;
     height: 99px;
     background-color: #1B262F;
-    justify-content: space-between
-
+    justify-content: space-between; /* gorezantalus ishliginimas*/
+    align-items: center; /* vertikalus ishliginimas */
 }
 
-/* logotipas pries footer nav */
-label.logo {
-    
-    left:200px;
-    font-size: 35px;
-    cursor: pointer;
-    color: #36536b;
-    padding: 0 100px;
-    background-image: url(../img/assets/shared/desktop/logo.svg);
-    background-repeat: no-repeat;
-}
 
+
+/* logo ir meniu isdestimas*/
 .footer-nav ul {
     display: flex;
     list-style: none;
-    padding: 10px;
-
+    align-items: center;
+   
 }
 
 .footer-nav li {
-    margin-right: 50px;
+    margin-right: 55px;
     font-size: 15px;
-    text-align: center;
-    display: flex;
-
+    text-align: left;
 }
 
 .footer-nav .nav-link {
-
     text-decoration: none;
     color: #fbfcfe;
-
-}
-.footer-box-social{
-  
-  display: inline-block;
-  padding-left: 50px;
-  padding: 0px 15px;
 }
 
+/* footer-box-social i deshine */
+.footer-box-social {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+/* soc icon style */
+.footer-box-social a {
+    margin-right: 10px;
+}
+
+.footer-box-social img {
+    height: 20px; 
+    width: 20px;
+}
