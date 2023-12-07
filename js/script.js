@@ -1,25 +1,47 @@
-// $(document).ready(function(){
-//     $('#icon').click(function(){
-//       $('ul').toggleClass('show')
-//     })  
-//   })
+let form = document.querySelector('.form_group'),
+    formInputs = document.querySelectorAll('.js-input'),
+    inputCheckbox = document.querySelector('#js-input-checkbox');
 
-  const hamburger = document.querySelector(".hamburger");
-  const navMenu = document.querySelector(".nav-menu");
+function validateEmail(email) {
+    let re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    return re.test(String(email).toLowerCase());
+}
 
-  hamburger.addEventListener("click", () => {
-    hamburger.classList.toggle("active");
-    navMenu.classList.toggle("active");
-  })
+form.onsubmit = function () {
+    let emptyInputs = Array.from(formInputs).filter(input => input.value === '');
 
-  document.querySelectorAll(".navbar-button").
-  forEach(n => n. addEventListener("click", () => {
-    hamburger.classList.remove("active");
-    navMenu.classList.remove("active");
-  }))
+    formInputs.forEach(function (input) {
+        if (input.value === '') {
+            input.classList.add('error');
+            console.log('not valid')
+        } else {
+            input.classList.remove('error');
+        }
+    });
 
-  document.querySelectorAll(".nav-link").
-  forEach(n => n. addEventListener("click", () => {
-    hamburger.classList.remove("active");
-    navMenu.classList.remove("active");
-  }))
+    if (emptyInputs.length !== 0) {
+        console.log('Some inputs are not filled');
+        event.preventDefault();
+        return false;
+    }
+
+    let emailVal = form.querySelector('.js-input[type="email"]').value;
+
+    if (!validateEmail(emailVal)) {
+        console.log('email not valid');
+        form.querySelector('.js-input[type="email"]').classList.add('error');
+        return false;
+    } else {
+        form.querySelector('.js-input[type="email"]').classList.remove('error');
+    }
+
+
+
+    if (!inputCheckbox.checked) {
+        console.log('checkbox not checked');
+        inputCheckbox.classList.add('error');
+        return false;
+    } else {
+        inputCheckbox.classList.remove('error');
+    }
+}
