@@ -5,7 +5,7 @@ footer {
     border: 2px solid red;
     margin: 1px;
     padding: 1px;
-    width: auto;
+    width: 100%;
     height: 325px;
 }
 
@@ -44,7 +44,7 @@ form {
 }
 
 /* email  lauko nustatymas */
-#email {
+.footer-email {
     background-color: #fbfcfe;
     border-radius: 35px;
     border: 1px solid transparent;
@@ -56,7 +56,7 @@ form {
 
 .footer-nav {
     flex-wrap: wrap;
-    width: auto;
+    width: 100%;
     display: flex;
     padding: 15px 25px;
     height: 99px;
@@ -101,4 +101,24 @@ form {
 .footer-box-social img {
     height: 20px; 
     width: 20px;
+}
+
+@media screen and (max-width: 600px){
+    .footer-top{
+    display: inset-block;
+    }
+    .footer-email{
+        width: 30%;
+    }
+    
+}
+
+@media  scrin and(max-width: 300px) {
+    .footer-top{
+        display: inset-block;
+        width: 40%;
+        }
+    .footer-nav{
+        width: 70%;
+    }
 }
