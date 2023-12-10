@@ -1,0 +1,99 @@
+footer {
+    margin: 1px;
+    padding: 1px;
+    width: auto;
+    height: 325px;
+}
+
+/* footer pirmas blokas nustatymai  */
+.footer-top {
+    margin: 1px;
+    padding: 2px;
+    height: 100px;
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-top h3 {
+    font-size: 25px;
+}
+
+/* formos nustatymas formos tekstas i kuria pozicija    */
+form {
+    text-align: left;
+
+}
+
+/* btn nustatymas  */
+.secondary-btn {
+    color: #fbfcfe;
+    background-color: #BA4270;
+    height: 48px;
+    width: 272px;
+    font-size: 15px;
+    border-radius: 35px;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+/* email  lauko nustatymas */
+#email {
+    background-color: #fbfcfe;
+    border-radius: 35px;
+    border: 1px solid transparent;
+    font-size: 15px;
+    height: 48px;
+    width: 272px;
+}
+
+
+.footer-nav {
+    flex-wrap: wrap;
+    width: auto;
+    display: flex;
+    padding: 15px 25px;
+    height: 99px;
+    background-color: #1B262F;
+    justify-content: space-between; /* gorezantalus ishliginimas*/
+    align-items: center; /* vertikalus ishliginimas */
+}
+
+
+
+/* logo ir meniu isdestimas*/
+.footer-nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+   
+}
+
+.footer-nav li {
+    margin-right: 55px;
+    font-size: 15px;
+    text-align: left;
+}
+
+.footer-nav .nav-link {
+    text-decoration: none;
+    color: #fbfcfe;
+}
+
+/* footer-box-social i deshine */
+.footer-box-social {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+/* soc icon style */
+.footer-box-social a {
+    margin-right: 10px;
+}
+
+.footer-box-social img {
+    height: 20px; 
+    width: 20px;
+}
