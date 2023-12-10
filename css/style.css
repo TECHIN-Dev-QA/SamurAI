@@ -122,8 +122,8 @@ nav a{
 }
 .navbar-button:hover{
     color: #fbfcfe;
-    background-color: #BA4270;
-    border: 0px solid #BA4270;
+    background-color: #da6d97;
+    border: 0px solid #da6d97;
 }
 
 .content form input{
@@ -318,8 +318,8 @@ nav a{
     }
     .secondary-btn:hover{
         color: #fbfcfe;
-        background-color: #BA4270;
-        border: 0px solid #BA4270;
+        background-color:#da6d97;
+        border: 0px solid #da6d97;
     }
 
 
@@ -560,11 +560,5 @@ nav a{
         top: 1%;
    }}
    
-
-
-    }
-    
-    }  
-   }
 
 
