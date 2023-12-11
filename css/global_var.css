@@ -30,11 +30,15 @@ h4 {
 .h1-large {
     font-size: 72px;
     line-height: 72px;
+    letter-spacing: -0.246px;
+    font-weight: 400;
 }
 
 .h1-small {
     font-size: 56px;
     line-height: 56px;
+    letter-spacing: -0.246px;
+    font-weight: 400;
 }
 
 h2 {
