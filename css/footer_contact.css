@@ -1,0 +1,389 @@
+/*footer css style
+footer sudaro du div footer-top virsus
+pirmas kodas skirtas mobial */
+
+.footer {
+    /* border: 2px solid red; */
+    /* margin: 0;
+    padding: 0; */
+    width: 100%;
+    height: 100%;
+
+}
+
+/* pirmo bloko stilius  bloko isdestimas*/
+.footer-top {
+    border: 2px solid blue;
+    margin: 1px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    text-align: center;
+}
+
+.box-top-email {
+    text-wrap: wrap;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+/* teksto bloko stilius */
+.box-top-text {
+    margin: 10px;
+    padding: 20px;
+    padding: 0px;
+    line-height: 6px;
+    display: flex;
+
+}
+
+/*teksto stilius*/
+.box-top-text h3 {
+    white-space: nowrap;
+    align-items: center;
+    font-size: 48px;
+}
+
+/* 
+botton pozicija */
+
+.box-top-button {
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+/* botton stilius */
+.secondary-btn {
+    color: #fbfcfe;
+    background-color: #BA4270;
+    /* height: 10%;
+    width: 20px; 
+     font-size: 15px; 
+     border-radius: 35px; 
+     border: 1px solid transparent; 
+     cursor: pointer; */
+}
+
+
+.footer-email {
+    background-color: #fbfcfe;
+    border-radius: 35px;
+    border: 1px solid transparent;
+    font-size: 15px;
+    height: 48px;
+    width: 270px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+
+
+/* antras blokas */
+
+.footer-two {
+    border: 2px solid red;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 15px 25px;
+    background-image: url(../img/bacgraunf_footer.svg);
+    flex-direction: column; 
+    align-items: center;
+}
+
+/*visu div stiliai */
+.image-wrap {
+    /* border: 2px solid yellow; */
+    width: 135px;
+    height: 38px;
+}
+
+.footer-nav-footer {
+
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/*  meniu isdestimas*/
+
+.footer-nav ul {
+    flex-direction: column;
+    list-style: none;
+    align-items: center;
+    padding: 0;
+    display: flex;
+}
+
+
+.footer-nav-footer {
+    text-decoration: none;
+    color: #fbfcfe;
+}
+
+/*  meniu isdestimas*/
+.footer-nav-footer ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    padding: 0;
+    flex-direction: column;
+}
+
+.footer-nav-footer li {
+    display: flex;
+    font-size: 15px;
+    margin-right: 20px;
+
+}
+
+.footer-box-social {
+    display: flex;
+    width: 150px;
+    height: 25px;
+    /* border: 2px solid blue; */
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+/*  meniu isdestimas*/
+
+.footer-box-logo {
+    height: 24px;
+    width: 24px;
+}
+
+/* soc icon isdestimas */
+.footer-box-social a {
+    margin-right: 20px;
+
+}
+
+.footer-box-social img {
+    height: 24px;
+    width: 24px;
+}
+
+
+@media screen and (min-width: 350px) {
+
+
+    .footer {
+        width: 100%;
+        height: 100%;
+    }
+
+    /* pirmo bloko stilius  bloko isdestimas*/
+    .footer-top {
+        border: 2px solid blue;
+        margin: 1px;
+        padding: 0px;
+        padding-top: 20px;
+        height: 100%;
+        width: 100%;
+        background-color: var(--background-color);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-repeat: no-repeat;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .box-top-email {
+        text-wrap: wrap;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    /* teksto bloko stilius */
+    .box-top-text {
+        margin: 10px;
+        padding: 20px;
+        padding: 0px;
+        line-height: 6px;
+        display: flex;
+    }
+
+    /*teksto stilius*/
+    .box-top-text h3 {
+        white-space: nowrap;
+        align-items: center;
+        font-size: 48px;
+    }
+
+    /* 
+    botton pozicija */
+
+    .box-top-button {
+        align-items: center;
+        padding-bottom: 100px;
+    }
+
+    /* botton stilius */
+    .secondary-btn {
+        color: #fbfcfe;
+        background-color: #BA4270;
+    }
+
+
+    /* style email */
+    .footer-email {
+        background-color: #fbfcfe;
+        border-radius: 35px;
+        border: 1px solid transparent;
+        font-size: 15px;
+        height: 48px;
+        width: 270px;
+        text-align: center;
+        box-sizing: border-box;
+    }
+    
+    /* antras blokas */
+
+    .footer-two {
+        border: 2px solid red;
+        */ width: 100%;
+        height: 100%;
+        display: flex;
+        padding: 15px 25px;
+        background-image: url(../img/bacgraunf_footer.svg);
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /*visu div stiliai */
+    .image-wrap {
+        width: 135px;
+        height: 38px;
+    }
+
+    .footer-nav-footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /*  meniu isdestimas*/
+
+    .footer-nav ul {
+        flex-direction: column;
+        list-style: none;
+        align-items: center;
+        padding: 0;
+        display: flex;
+    }
+
+    .footer-nav-footer {
+        text-decoration: none;
+        color: #fbfcfe;
+    }
+
+    /*  meniu isdestimas*/
+    .footer-nav-footer ul {
+        list-style: none;
+        align-items: center;
+        padding: 0;
+        flex-direction: column;
+    }
+
+    .footer-nav-footer li {
+        display: flex;
+        font-size: 15px;
+        margin-right: 20px;
+    }
+
+    .footer-box-social {
+        display: flex;
+        width: 150px;
+        height: 25px;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    /*  meniu isdestimas*/
+
+    .footer-box-logo {
+        height: 24px;
+        width: 24px;
+    }
+
+    /* soc icon isdestimas */
+    .footer-box-social a {
+        margin-right: 20px;
+    }
+
+    .footer-box-social img {
+        height: 24px;
+        width: 24px;
+    }
+
+    .box-logo-1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 20px;
+    }
+
+    .box-logo {
+        width: 48%; 
+        margin-bottom: 10px; 
+        box-sizing: border-box; 
+    }
+
+    .box-logo img {
+        width: 50%; 
+        height: auto; 
+        display: block; 
+    }
+
+    .footer-nav-footer ul {
+        list-style: none;
+        align-items: center;
+    }
+}
+
+
+
+@media screen and (min-width: 700px) {
+    .box-logo-1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .box-logo {
+        width: 48%; 
+        margin-bottom: 10px; 
+        box-sizing: border-box; 
+    }
+
+    .box-logo img {
+        width: 50%; 
+        height: auto; 
+        display: block; 
+    }
+
+    .footer-nav-footer ul {
+        list-style: none;
+        align-items: center;
+    }
+
+    .footer-nav-footer ul {
+        list-style: none;
+        align-items: center;
+        padding: 0;
+        display: flex;
+        flex-direction: center;
+    }
+
+
+}

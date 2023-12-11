@@ -1,6 +1,9 @@
 /* input form style*/ 
-.form {
-    width: 300px;
+
+
+.js-form {
+    width: 90%;
+    margin: 20px;
 }
 
 .form-group {
@@ -9,16 +12,16 @@
 
 .input {
     width: 100%;
-    height: 30px;
-    padding: 0 10px;
+    height: 100%;
+    /* padding: 0 10px; */
     border:none;
     border-bottom:1px solid #ccc;
     outline: 0;
 }
 .js-message{
     width: 100%;
-    height: 100px; /* Высота на ваш выбор */
-    padding: 0 10px;
+    height: 50px;
+    padding: 0;
     border:none;
     border-bottom:1px solid #ccc;
     outline: 0;
@@ -27,7 +30,7 @@
 .input:focus,
 .js-message:focus {
     border-color: #1ee810;
-     /* Цвет при фокусе */
+   
 }
 
 .input.error {
@@ -35,7 +38,9 @@
 }
 
 .input::placeholder {
+    display: flex;
     color: #716a6a;
+    font-size: 15px;
 }
 
 .checkbox-label {
@@ -48,11 +53,27 @@
 
 .btn {
     color: #fbfcfe;
-    background-color: #BA4270;
+    /* background-color: #BA4270; */
     height: 48px;
-    width: 272px;
+    width: 150px;
     font-size: 15px;
+    color:#36536B;
     border-radius: 35px;
     border: 1px solid transparent;
     cursor: pointer;
+    padding: 2px;
+}
+
+
+@media screen and (min-width: 700px){
+
+    .js-form{
+        display:flex-block;
+        width: 60%;
+        align-items: center;
+       
+        margin: 15%;
+
+
+    }
 }
